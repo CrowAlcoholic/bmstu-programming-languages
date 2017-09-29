@@ -2,7 +2,7 @@
 
 int main() {
     // 1 
-    /* std::cout << "Enter two numbers" << std::endl;
+    std::cout << "Enter two numbers" << std::endl;
     int x1 = 0;
     int y1 = 0;
     std::cin >> x1 >> y1;
@@ -97,7 +97,7 @@ int main() {
     else
     {
         std::cout << "All numbers are less than 100" << std::endl;
-    } */
+    }
     ///////////////////////////////////////////////////////////////////////////////////////// 7
     std::cout << "enter a,b for rook" << std::endl;
     std::pair<int, int> rook;
