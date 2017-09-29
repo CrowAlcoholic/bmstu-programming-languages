@@ -165,6 +165,5 @@ int main() {
         std::cout << "b must be > 0 and < 8. Enter c,d for target again" << std::endl;
         std::cin >> rook.first >> rook.second;
     }
-
     return 0;
 }
