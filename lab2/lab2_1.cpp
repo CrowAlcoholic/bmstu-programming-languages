@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include <iostream>
 
 int main() {
@@ -148,5 +149,22 @@ int main() {
         std::cout << "Chill, bishop can't hit " << target2.first << target2.second << std::endl;
     }
     ///////////////////////////////////////////////////////////////////////////////////////// 9
+    std::cout << "enter a,b for the king" << std::endl;
+    std::pair<int, int> king;
+    std::cin >> king.first >> king.second;
+    std::cout << "enter c,d for second figure " << std::endl;
+    std::pair<int, int> target3;
+    std::cin >> target3.first >> target3.second;
+    while ((0 > king.first) || (king.first > 8) || (0 > king.second) || (king.second > 8))
+    {
+        std::cout << "a must be > 0 and < 8. Enter a,b for king again" << std::endl;
+        std::cin >> rook.first >> rook.second;
+    }
+    while ((0 > target3.first) || (target3.first > 8) || (0 > target3.second) || (target3.second > 8))
+    {
+        std::cout << "b must be > 0 and < 8. Enter c,d for target again" << std::endl;
+        std::cin >> rook.first >> rook.second;
+    }
+
     return 0;
 }
